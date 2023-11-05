@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1.6rem;
+    align-items: center;
+    color: white;
+}
+
+header .title-header {
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.menu .menu-link {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.4em;
+    color: white;
+}
+
+.menu .menu-link:hover {
+    background-color: rgba(44, 42, 42, 0.801);
+    color: blue;
+}
+
+.btn-menu {
+    background-color: transparent;
+    color: blue;
+    display: none;
+    border-radius: 6px;
+}
+
+.btn-menu i {
+    font-size: 1.4em;
+}

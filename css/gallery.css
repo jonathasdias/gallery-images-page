@@ -1,0 +1,24 @@
+.title-gallery {
+    color: white;
+    padding: 20px;
+}
+
+.gallery-imgs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-imgs img {
+    border-radius: 4px;
+    cursor: pointer;
+    object-fit: cover;
+    width: 30%;
+    transition: all .4s;
+}
+.gallery-imgs img:hover {
+   border: 4px solid blue;
+   box-shadow: 0 0 10px blue;
+   transform: scale(1.1);
+}

@@ -1,0 +1,7 @@
+@media (max-width: 430px) {
+    .title-gallery {
+        color: white;
+        padding: 20px;
+        font-size: 24px;
+    }    
+}

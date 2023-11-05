@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Gallery</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/imgFull.css">
+    <link rel="stylesheet" href="./css/mediaQueries/mediaHeader.css">
+    <link rel="stylesheet" href="./css/mediaQueries/mediaSlider.css">
+    <link rel="stylesheet" href="./css/mediaQueries/mediaGallery.css">
+    <link rel="stylesheet" href="./css/mediaQueries/mediaFooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <a href="./index.html" class="title-header">Image Gallery</a>
+
+        <nav id="menu" class="menu">
+            <a href="./index.html" class="menu-link">Home</a>
+            <a href="#" class="menu-link">Contact</a>
+            <a href="https://github.com/jonathasDias" target="_blank" class="menu-link">GitHub</a>
+            <a href="#" class="menu-link">Gallery</a>
+        </nav>
+
+        <button id="btn-menu" class="btn-menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+
+    <main>
+        <section id="container" class="container-slider">
+            <button id="btn-left" class="btn btn-left">&#10094;</button>
+            <button id="btn-right" class="btn btn-right">&#10095;</button>
+            
+            <article id="slider" class="slider-imgs"></article>
+        </section>
+        
+        <h1 class="title-gallery">Gallery</h1>
+
+        <section id="gallery" class="gallery-imgs"></section>
+    </main>
+
+    <footer>
+        <h2>Jonathas Dias</h2>
+    </footer>
+
+    <script src="./javascript/render.js"></script>
+    <script src="./javascript/slider.js"></script>
+    <script src="./javascript/gallery.js"></script>
+    <script src="./javascript/menu.js"></script>
+</body>
+</html>

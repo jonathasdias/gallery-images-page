@@ -1,0 +1,47 @@
+@media(max-width: 1080px) {
+    
+    .slider-imgs {
+        column-gap: 2rem;
+        padding-left: 6rem;
+    }
+
+    .slider-imgs img {
+        width: 90%;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .container-slider {
+        height: 60vh;
+        margin: 1.2rem 1rem;
+    }
+
+    .slider-imgs {
+        column-gap: 1.4rem;
+        padding-left: 4rem;
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    .container-slider {
+        margin: 1.2rem 0;
+        border-radius: .4rem;
+    }
+
+    .slider-imgs {
+        column-gap: 1rem;
+        padding-left: 0;
+    }
+
+    .slider-imgs img {
+        height: 100%;
+    }
+
+    .active {
+        border: 4px solid transparent;
+        box-shadow: none;
+    }
+}
